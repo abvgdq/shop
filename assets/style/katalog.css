@@ -1,0 +1,101 @@
+.katalog__wrapper {
+    padding: 0 312px;
+}
+
+.katalog__armchairs {
+    width: 1172px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.katalog__armchairs-scale {
+    width: 281px;
+    height: 545px;
+    position: relative;
+}
+
+.katalog__armchairs-leather {
+    text-align: center;
+    width: 281px;
+    position: relative;
+}
+
+.katalog__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    color: #2B3350;
+    margin-top: 51px;
+}
+
+.new-price {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #2B3350;
+    margin-top: 3px;
+}
+
+.old-price {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #2B3350;
+    margin-top: 4px;
+    position: relative;
+}
+
+.old-price::after {
+    content: '';
+    position: absolute;
+    border: 1px solid #F54D35;
+    transform: rotate(-3.77deg);
+    width: 70px;
+    background: #F54D35;
+    top: 44%;
+    left: 37%;
+}
+
+.katalog-hov {
+    display: none;
+}
+
+.katalog__button {
+    width: 236px;
+    height: 63px;
+    background: #0074D4;
+    box-shadow: 0px 43px 51px rgba(0, 116, 212, 0.2), 0px 12.9632px 15.375px rgba(0, 116, 212, 0.241), 0px 5.38427px 6.38599px rgba(0, 116, 212, 0.15), 0px 1.94738px 2.30969px rgba(0, 116, 212, 0.059);
+    border-radius: 8px;
+    border: 0;
+    color: #ffffff;
+    margin-top: 20px;
+    position: absolute;
+    display: none;
+}
+
+.katalog__armchairs-leather:hover {
+    z-index: 10;
+}
+
+.katalog__armchairs-leather:hover > .katalog__hov {
+    display: block;
+    padding: 30px;
+    z-index: 9;
+    background: #F3F4F7;
+    border: 1px solid #F3F4F7;
+    box-shadow: 0px 20px 52px -8px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    position: absolute;
+    margin: 0 auto;
+}
