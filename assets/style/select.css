@@ -1,3 +1,7 @@
+.select {
+    margin-bottom: 90px;
+}
+
 .select__wrapper {
     padding:  0 374px;
 }
@@ -55,7 +59,7 @@
     display: flex;
     align-items: center;
     position: relative;
-    z-index: 3;
+    z-index: 999;
     height: 100%;
     width: 100%;
     background: #FFFFFF;
@@ -155,7 +159,7 @@
     border-top-right-radius: 0;
     display: none;
     border-top: none;
-    z-index: 9999;
+    z-index: 99;
     background: #FFFFFF;
 }
 

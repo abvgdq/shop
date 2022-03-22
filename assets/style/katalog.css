@@ -3,9 +3,9 @@
 }
 
 .katalog__armchairs {
-    width: 1172px;
     flex-wrap: wrap;
     display: flex;
+    justify-content: center;
 }
 
 .katalog__armchairs-scale {
@@ -17,6 +17,8 @@
 .katalog__armchairs-leather {
     text-align: center;
     width: 281px;
+    position: relative;
+    margin-bottom: 80px;
     position: relative;
 }
 
@@ -67,7 +69,7 @@
     left: 37%;
 }
 
-.katalog-hov {
+.katalog__hov {
     display: none;
 }
 
@@ -80,22 +82,29 @@
     border: 0;
     color: #ffffff;
     margin-top: 20px;
-    position: absolute;
-    display: none;
+    cursor: pointer;
 }
 
-.katalog__armchairs-leather:hover {
-    z-index: 10;
+.katalog__armchairs-leather:hover .katalog__title, .katalog-img, .old-price, .new-price{
+    z-index: 9;
+    position: relative;
+    cursor: pointer;
 }
 
 .katalog__armchairs-leather:hover > .katalog__hov {
-    display: block;
-    padding: 30px;
-    z-index: 9;
-    background: #F3F4F7;
+    display: flex;
+    z-index: 8;
+    left: -25px;
+    background: #FFFFFF;
     border: 1px solid #F3F4F7;
     box-shadow: 0px 20px 52px -8px rgba(0, 0, 0, 0.15);
     border-radius: 16px;
     position: absolute;
     margin: 0 auto;
+    justify-content: center;
+    height: 680px;
+    width: 330px;
+    top: -60px;
+    align-items: flex-end;
+    padding: 30px;
 }
