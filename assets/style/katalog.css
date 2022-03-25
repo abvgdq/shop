@@ -85,7 +85,7 @@
     cursor: pointer;
 }
 
-.katalog__armchairs-leather:hover .katalog__title, .katalog-img, .old-price, .new-price{
+.katalog__armchairs-leather:hover .katalog-img, .katalog__title, .old-price, .new-price{
     z-index: 9;
     position: relative;
     cursor: pointer;
@@ -102,7 +102,7 @@
     position: absolute;
     margin: 0 auto;
     justify-content: center;
-    height: 680px;
+    height: 700px;
     width: 330px;
     top: -60px;
     align-items: flex-end;

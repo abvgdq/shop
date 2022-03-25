@@ -9,7 +9,6 @@
 .rewiews__list {
     display: flex;
     overflow-x: hidden;
-    max-width: 1000px;
 }
 
 .reviews__title {
@@ -25,9 +24,15 @@
 }
 
 .rewiew {
-    max-width: 460px;
+    max-width: 570px;
     flex: 1 0 100%;
     margin-right: 55px;
+    background: #FFFFFF;
+    border: 1px solid #F3F4F7;
+    box-shadow: 0px 20px 52px -8px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    padding: 100px 48px 76px 43px;
+    position: relative;
 }
 
 .rewiew__title {
@@ -86,9 +91,10 @@
     box-sizing: border-box;
     box-shadow: 0px 12px 20px -8px rgba(0, 116, 212, 0.35);
     top: 50%;
-    left: -200px;
+    left: -24px;
     cursor: pointer;
     border-radius: 50%;
+    z-index: 9;
 }
 .rewiews__chevron-right {
     position: absolute;
@@ -98,7 +104,12 @@
     box-sizing: border-box;
     box-shadow: 0px 12px 20px -8px rgba(0, 116, 212, 0.35);
     top: 50%;
-    right: 0;
+    right: -47px;
     cursor: pointer;
     border-radius: 50%;
+    z-index: 9;
+}
+
+.rewiewsSlide {
+    left: 1231px;
 }

@@ -91,12 +91,11 @@ selectSeatAll.forEach(item => {
   })
 })
 
+const reviewsChevronLeft = document.querySelector(".rewiews__chevron-left")
+const reviewsChevronRight = document.querySelector(".rewiews__chevron-right")
+const reviewsList = document.querySelector("rewiews__list")
+let widthReview = 0;
 
-
-  
-
-
-
-
-
-  
+reviewsChevronRight.addEventListener('click', function(){
+}) 
+ 
