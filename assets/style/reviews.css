@@ -9,6 +9,7 @@
 .rewiews__list {
     display: flex;
     overflow-x: hidden;
+    position: relative;
 }
 
 .reviews__title {
@@ -32,7 +33,6 @@
     box-shadow: 0px 20px 52px -8px rgba(0, 0, 0, 0.15);
     border-radius: 16px;
     padding: 100px 48px 76px 43px;
-    position: relative;
 }
 
 .rewiew__title {
@@ -108,8 +108,4 @@
     cursor: pointer;
     border-radius: 50%;
     z-index: 9;
-}
-
-.rewiewsSlide {
-    left: 1231px;
 }
