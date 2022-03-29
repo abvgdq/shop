@@ -1,5 +1,5 @@
 .reviews__wrapper {
-    padding: 0 374px;
+    padding: 0 296px;
 }
 
 .rewiews__chevrons {
@@ -10,6 +10,7 @@
     display: flex;
     overflow-x: hidden;
     position: relative;
+    padding: 48px 0 68px 68px;
 }
 
 .reviews__title {
@@ -33,6 +34,7 @@
     box-shadow: 0px 20px 52px -8px rgba(0, 0, 0, 0.15);
     border-radius: 16px;
     padding: 100px 48px 76px 43px;
+    transition: 0.5s;
 }
 
 .rewiew__title {
@@ -108,4 +110,8 @@
     cursor: pointer;
     border-radius: 50%;
     z-index: 9;
+}
+
+.rewiew:nth-child(2n) {
+    margin-right: 135px;
 }
