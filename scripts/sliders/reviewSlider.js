@@ -1,4 +1,4 @@
-const rewiewSlider = () => {
+export const reviewSlider = () => {
     const reviewsChevronLeft = document.querySelector(".rewiews__chevron-left")
     const reviewsChevronRight = document.querySelector(".rewiews__chevron-right")
     const reviews = document.querySelectorAll(".rewiew")

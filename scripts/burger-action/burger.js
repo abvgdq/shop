@@ -1,4 +1,4 @@
-const burgerAction = () => {
+export const burgerAction = () => {
   const burgerMenu = document.querySelector(".burger-menu");
   const headerDown = document.querySelector(".header-down");
   burgerMenu.addEventListener("click", function () {
