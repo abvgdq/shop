@@ -56,8 +56,8 @@ export const armSlider = () => {
     }
     
     const currentDotSlider = event.target.dataset.item;
-    count = currentWidthSlider * Number(currentDotSlider);
-    currentSlider = Number(currentDotSlider);
+    count = currentWidthSlider * Number(currentDotSlider - 1);
+    currentSlider = Number(currentDotSlider - 1);
 
     sliderItem1.forEach((item) => {
       item.style.transform = `translateX(-${count}px)`;
@@ -66,21 +66,5 @@ export const armSlider = () => {
 
   window.addEventListener('resize', function() {
     currentWidthSlider = document.querySelector(".slider__container").clientWidth;
-  })
-  
-  const selectSeatAll = document.querySelectorAll('.select__seat');
-
-  selectSeatAll.forEach(item => {
-    item.addEventListener("click", function(event){
-      const currentEl = event.target.classList[0];
-      if (currentEl === "select__chevron-img") {
-        item.querySelector('.select__seat-hidden').classList.toggle('is-active')
-        item.querySelector('.select__chevron-img').classList.toggle('is-active__rotate')
-      }
-      if (currentEl === "value") {
-        item.querySelector('.value-active').textContent = event.target.textContent;
-        item.querySelector('.select__seat-hidden').classList.remove('is-active')
-      }
-    })
   })
 }

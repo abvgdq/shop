@@ -452,4 +452,11 @@
         left: 0%;
     }
 }
-
+.rootKatalog:active, .rootKatalog:hover, .rootKatalog {
+    text-decoration: none;
+    color: #ffff;
+}
+.rootPoduct:active, .rootPoduct:hover, .rootPoduct {
+    text-decoration: none;
+    color: #2B3350;
+}
